@@ -1,0 +1,22 @@
+{
+  "name": "khashayar-node.js-webserver",
+  "version": "1.0.0",
+  "description": "A simple webserver created with node.js",
+  "main": "server.js",
+  "scripts": {
+    "deploy": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lo-Agency-Internship/khashayar-node.js-WebServer.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Khashayar Hajnabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lo-Agency-Internship/khashayar-node.js-WebServer/issues"
+  },
+  "homepage": "https://github.com/Lo-Agency-Internship/khashayar-node.js-WebServer#readme"
+}
