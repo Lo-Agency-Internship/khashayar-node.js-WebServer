@@ -1,0 +1,8 @@
+# Ignoring 
+*
+
+# Not ignoring
+!.gitignore
+!server.js
+!readme.md
+!package.json
