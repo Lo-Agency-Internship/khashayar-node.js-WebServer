@@ -29,33 +29,21 @@ const server = http.createServer((req,res)=>{
                 switch (path.extname(route)) {
                     case ".html":
                         res.writeHead(200, {"Content-Type": "text/html"})
-                        res.write(content)
-                        res.end();
                         break;
                     case ".css":
                         res.writeHead(200, {"Content-Type": "text/css"})
-                        res.write(content)
-                        res.end();
                         break;
                     case ".png":
                         res.writeHead(200, {"Content-Type": "image/png"})
-                        res.write(content)
-                        res.end();
                         break;
                     case ".jpg":
                         res.writeHead(200, {"Content-Type": "image/jpg"})
-                        res.write(content)
-                        res.end();
                         break;
                     case ".ico":
                         res.writeHead(200, {"Content-Type": "image/x-icon"})
-                        res.write(content)
-                        res.end();
                         break;
                     case ".ttf":
                         res.writeHead(200, {"Content-Type": "font/ttf"})
-                        res.write(content)
-                        res.end();
                         break;
                 
                     default:
@@ -64,6 +52,8 @@ const server = http.createServer((req,res)=>{
                         res.end();
                         break;
                 }
+                res.write(content)
+                res.end();
             }
         })
     }

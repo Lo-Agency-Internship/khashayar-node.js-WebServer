@@ -4,5 +4,5 @@
 # Not ignoring
 !.gitignore
 !server.js
-!readme.md
+!README.md
 !package.json

@@ -15,7 +15,7 @@ Have the project on your local device by cloning
 or simply download the zip file using this link:  
 [Download](https://github.com/Lo-Agency-Internship/khashayar-node.js-WebServer/archive/refs/heads/main.zip)  
 
-Copy the server.js file on your desired directory.
+Copy the server.js and package.json files on your desired directory.
 
  run this command in your git bash:
 
